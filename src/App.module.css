@@ -1,0 +1,12 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets//images/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgba(235, 190, 255, 0.67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,32 @@
+.Card {
+    width: 60%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 3rem 2rem 2rem 2rem;
+}
+
+.header {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: 'WorkSans';
+    color: #341635;
+    font-size: 3rem;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px){
+    .Card {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

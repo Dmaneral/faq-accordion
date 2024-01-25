@@ -1,0 +1,32 @@
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: 'WorkSans';
+    color: #341635;
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+img {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+p {
+    color: rgba(75, 11, 103, 0.66);
+    margin-bottom: 1rem;
+    transition: all 0.5s;
+}
+
+@media screen and (min-width: 768px){
+    h2:hover {
+        color: #9A42C1;
+    }
+}
+
